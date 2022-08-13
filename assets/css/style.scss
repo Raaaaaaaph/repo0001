@@ -53,31 +53,74 @@ header {
     .main-shoot {
         padding: 40px 0;
         .pos-1 {
-            width:auto; 
+            @media screen and (max-width: 1399px) {
+                width: 250px;
+                height: auto;
+            }
+            @media screen and (min-width: 1200px) {
+                margin-top: 200px;
+            }
+            @media screen and (max-width: 767px) {
+                margin-top: 50px;
+            }
+            width:auto;
             height:200px;
-            margin-top: 200px;
         }
         .pos-2 {
+            @media screen and (max-width: 767px) {
+                margin-top: 50px;
+            }
             width:250px;
         }
         .pos-3 {
+            @media screen and (min-width: 1200px) {
+                margin-top: 111px;
+            }
+            @media screen and (max-width: 767px) {
+                margin-top: 50px;
+            }
             width:250px;
-            margin-top: 111px;
         }
         .pos-4 {
+            @media screen and (min-width: 1200px) {
+                margin-top: -60px;
+            }
+        
+            @media screen and (max-width: 767px) {
+                margin-top: 50px;
+            }
             width:250px;
-            margin-top: -60px;
         }
         .pos-5 {
+            @media screen and (max-width: 1399px) {
+                width: 250px;
+                height: auto;
+            }
+            @media screen and (min-width: 1200px) {
+                margin-top: 50px;
+            }
+            @media screen and (max-width: 1199px) {
+                margin-top: -50px;
+            }
+            @media screen and (max-width: 767px) {
+                margin-top: 50px;
+            }
             width:auto;
             height: 200px;
-            margin-top: 50px;
         }
         .pos-6 {
+            @media screen and (min-width: 1200px) {
+                margin-top: -200px;
+            }
+            @media screen and (max-width: 1199px) {
+                margin-top: 50px;
+            }
             width:250px;
-            margin-top: -200px;
         }
         .main-list {
+            @media screen and (max-width: 767px) {
+                display: none;
+            }
             display: flex;
             justify-content: center;
             ol {
