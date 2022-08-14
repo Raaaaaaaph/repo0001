@@ -35,7 +35,7 @@ header {
         @media screen and (max-width: 991px) {
             font-size: 4.35rem;
         }
-        @media screen and (max-width: 719px) {
+        @media screen and (max-width: 575px) {
             font-size: 2.75rem;
         }
         margin: 31px 0;
@@ -137,3 +137,65 @@ header {
     }
 }
 // MAIN SECTION //
+
+// SAMPLE1 SECTION //
+#sample1 {
+    padding: 10px 0;
+    .content {
+        @media screen and (min-width: 992px) {
+            margin: 150px 0;
+        }
+        margin: 50px 0;
+        h3 {
+            @media screen and (max-width: 575px) {
+                font-size: 2rem;
+            }
+            font-family: 'Playfair Display';
+            font-weight: 700;
+            font-size: 3rem;
+        }
+        p {
+            @media screen and (min-width:1200px) {
+                margin: 20px 175px;
+            }
+            margin: 20px;
+        }
+        button {
+            font-weight: bold;
+            padding: 15px 20px;
+        }
+    }
+    .illustration {
+        height: 100%;
+        .back-img {
+            @media screen and (min-width:1200px) {
+                width: 550px; 
+            }
+            @media screen and (max-width: 1199px) {
+                width: 399px;
+            }
+            @media screen and (max-width: 991px) {
+                display: none;
+            }
+            height: auto; 
+            position: absolute;
+        }
+        .img-sample1 {
+            @media screen and (min-width:1400px) {
+                margin-right: 40px;
+            }
+            @media screen and (min-width: 992px) {
+                margin-top: 130px;
+            }
+            @media screen and (max-width: 991px) {
+                margin-bottom: 50px;
+            }
+            @media screen and (max-width: 575px) {
+                width: 250px;
+            }
+            width: 450px;
+            position: relative; 
+        }
+    }
+}
+// SAMPLE1 SECTION //

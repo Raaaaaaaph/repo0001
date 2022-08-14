@@ -39,7 +39,7 @@
     font-size: 4.35rem;
   }
 }
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 575px) {
   #main h2 {
     font-size: 2.75rem;
   }
@@ -169,4 +169,84 @@
 #main .main-shoot .main-list ol li {
   text-align: left;
   font-size: 18px;
+}
+
+#sample1 {
+  padding: 10px 0;
+}
+#sample1 .content {
+  margin: 50px 0;
+}
+@media screen and (min-width: 992px) {
+  #sample1 .content {
+    margin: 150px 0;
+  }
+}
+#sample1 .content h3 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 3rem;
+}
+@media screen and (max-width: 575px) {
+  #sample1 .content h3 {
+    font-size: 2rem;
+  }
+}
+#sample1 .content p {
+  margin: 20px;
+}
+@media screen and (min-width: 1200px) {
+  #sample1 .content p {
+    margin: 20px 175px;
+  }
+}
+#sample1 .content button {
+  font-weight: bold;
+  padding: 15px 20px;
+}
+#sample1 .illustration {
+  height: 100%;
+}
+#sample1 .illustration .back-img {
+  height: auto;
+  position: absolute;
+}
+@media screen and (min-width: 1200px) {
+  #sample1 .illustration .back-img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  #sample1 .illustration .back-img {
+    width: 399px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #sample1 .illustration .back-img {
+    display: none;
+  }
+}
+#sample1 .illustration .img-sample1 {
+  width: 450px;
+  position: relative;
+}
+@media screen and (min-width: 1400px) {
+  #sample1 .illustration .img-sample1 {
+    margin-right: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #sample1 .illustration .img-sample1 {
+    margin-top: 130px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #sample1 .illustration .img-sample1 {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 575px) {
+  #sample1 .illustration .img-sample1 {
+    width: 250px;
+  }
 }/*# sourceMappingURL=style.css.map */
