@@ -199,3 +199,95 @@ header {
     }
 }
 // SAMPLE1 SECTION //
+
+// ABOUT SECTION //
+#about {
+    @media screen and (min-width: 1921px) {
+        background-image: url(../images/aboutw.jpg);
+    }
+    @media screen and (max-width: 1920px) {
+        background-image: url(../images/aboutfhd.jpg);
+    }
+    @media screen and (max-width: 1280px) {
+        background-image: url(../images/abouthd.jpg);
+    }
+    @media screen and (max-width: 991px) {
+        background-image: url(../images/aboutshd.jpg);
+    }
+    @media screen and (max-width: 720px) {
+        background-image: url(../images/aboutsd.jpg);
+    }
+    background-position: center;
+    background-size: cover;
+    padding: 110px 0;
+    .pos1 {
+        padding: 0;
+        img {
+            width: 100%;
+        }
+        .co1 {
+            background-color: #333;
+            h4 {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 2.15rem;
+                color: #fff;
+                padding: 50px;
+                margin: 0;
+            }
+        }
+        
+    }
+    .pos2 {
+        @media screen and (min-width: 992px) {
+            margin-top: 222px;
+        }
+        @media screen and (max-width: 991px) {
+            margin-top: 15px;
+        }
+        padding: 0;
+        img {
+            @media screen and (max-width: 991px) {
+                border-top-left-radius: .375rem;
+            }
+            width: 100%;
+            border-top-right-radius: .375rem;
+        }
+        .co2 {
+            background-color: #CCC;
+            padding: 20px;
+            h3 {
+                font-family: 'Playfair Display', sans-serif;
+                font-weight: 700;
+                font-size: 2rem;
+                margin: 0;
+            }
+            p {
+                margin: 20px;
+            }
+            button {
+                padding: 15px 20px;
+                font-weight: bold;
+            }
+        }
+    }
+    .pos3 {
+        @media screen and (min-width: 992px) {
+            margin-top: 422px;
+        }
+        @media screen and (max-width: 991px) {
+            margin-top: 15px;
+        }
+        padding: 0;
+        
+        img {
+            @media screen and (max-width: 991px) {
+                border-top-left-radius: .375rem;
+                border-bottom-left-radius: .375rem;
+            }
+            width: 100%;
+            border-top-right-radius: .375rem;
+            border-bottom-right-radius: .375rem;
+        }
+    }
+}
+// ABOUT SECTION //
