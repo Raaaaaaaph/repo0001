@@ -218,7 +218,7 @@
 }
 @media screen and (max-width: 1199px) {
   #sample1 .illustration .back-img {
-    width: 399px;
+    width: 499px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -359,4 +359,266 @@
     border-top-left-radius: 0.375rem;
     border-bottom-left-radius: 0.375rem;
   }
+}
+
+#sample2 {
+  padding: 40px 0 10px 0;
+}
+#sample2 .content {
+  margin: 50px 0;
+}
+@media screen and (min-width: 992px) {
+  #sample2 .content {
+    margin: 350px 0 150px 0;
+  }
+}
+#sample2 .content h3 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 3rem;
+}
+@media screen and (max-width: 575px) {
+  #sample2 .content h3 {
+    font-size: 2rem;
+  }
+}
+#sample2 .content p {
+  margin: 20px 0;
+}
+@media screen and (min-width: 1200px) {
+  #sample2 .content p {
+    margin-right: 175px;
+  }
+}
+#sample2 .content button {
+  font-weight: bold;
+  padding: 15px 20px;
+}
+#sample2 .illustration {
+  height: 100%;
+  margin-top: -5px;
+}
+@media screen and (max-width: 991px) {
+  #sample2 .illustration {
+    text-align: center;
+  }
+}
+#sample2 .illustration .back-img {
+  height: auto;
+  position: absolute;
+}
+@media screen and (min-width: 1200px) {
+  #sample2 .illustration .back-img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  #sample2 .illustration .back-img {
+    width: 499px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #sample2 .illustration .back-img {
+    display: none;
+  }
+}
+#sample2 .illustration .img-sample2 {
+  width: 450px;
+  position: relative;
+}
+@media screen and (min-width: 1400px) {
+  #sample2 .illustration .img-sample2 {
+    margin-right: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #sample2 .illustration .img-sample2 {
+    margin-top: 130px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #sample2 .illustration .img-sample2 {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 575px) {
+  #sample2 .illustration .img-sample2 {
+    width: 250px;
+  }
+}
+
+#deal {
+  background-position: center;
+  background-size: cover;
+  padding: 110px 0;
+}
+@media screen and (min-width: 1921px) {
+  #deal {
+    background-image: url(../images/dealw.jpg);
+  }
+}
+@media screen and (max-width: 1920px) {
+  #deal {
+    background-image: url(../images/dealfhd.jpg);
+  }
+}
+@media screen and (max-width: 1280px) {
+  #deal {
+    background-image: url(../images/dealhd.jpg);
+  }
+}
+@media screen and (max-width: 991px) {
+  #deal {
+    background-image: url(../images/dealshd.jpg);
+  }
+}
+@media screen and (max-width: 720px) {
+  #deal {
+    background-image: url(../images/dealsd.jpg);
+  }
+}
+#deal .pos1 {
+  padding: 0;
+}
+@media screen and (min-width: 992px) {
+  #deal .pos1 {
+    margin-top: 235px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #deal .pos1 {
+    margin-top: 0px;
+  }
+}
+#deal .pos1 img {
+  width: 100%;
+}
+#deal .pos1 .co1 {
+  background-color: #0E5144;
+}
+#deal .pos1 .co1 h3 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2.15rem;
+  color: #fff;
+  padding: 50px;
+  margin: 0;
+}
+#deal .pos1 .co1 p {
+  margin: 0 30px 30px 30px;
+  color: #fff;
+}
+#deal .pos1 .co1 button {
+  padding: 15px 20px;
+  font-weight: bold;
+  margin: 15px;
+}
+#deal .pos2 {
+  padding: 0;
+}
+@media screen and (min-width: 992px) {
+  #deal .pos2 {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #deal .pos2 {
+    margin-top: 15px;
+  }
+}
+#deal .pos2 img {
+  width: 100%;
+}
+#deal .pos2 .img21 {
+  border-top-right-radius: 0.375rem;
+}
+@media screen and (max-width: 991px) {
+  #deal .pos2 .img21 {
+    border-bottom-left-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #deal .pos2 .img22 {
+    border-radius: 0.375rem;
+  }
+}
+#deal .pos3 {
+  padding: 0;
+}
+@media screen and (min-width: 992px) {
+  #deal .pos3 {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #deal .pos3 {
+    margin-top: 15px;
+  }
+}
+#deal .pos3 img {
+  width: 100%;
+  border-top-right-radius: 0.375rem;
+}
+@media screen and (max-width: 991px) {
+  #deal .pos3 img {
+    border-top-left-radius: 0.375rem;
+  }
+}
+#deal .pos3 .co2 {
+  background-color: #eee;
+  padding: 20px;
+}
+#deal .pos3 .co2 h3 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+}
+#deal .pos3 .co2 p {
+  margin: 20px;
+}
+#deal .pos3 .co2 button {
+  padding: 15px 20px;
+  font-weight: bold;
+  background-color: #0E5144;
+  color: #fff;
+}
+#deal .pos3 .co2 button:hover {
+  background-color: #246D5F;
+  border: #246D5F 1px solid;
+}
+
+#contact {
+  background-color: #666;
+  padding: 77px;
+}
+#contact .card {
+  margin: 55px;
+}
+#contact .card img {
+  width: 144px;
+  height: 144px;
+  margin: 25px 0 15px 0;
+}
+#contact .card h2 {
+  margin: 12px 0;
+  font-family: "Playfair Display";
+  font-weight: 700;
+}
+#contact .card h4 {
+  margin: 25px 22px;
+  color: #444;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+#contact .card p {
+  margin: 33px 51px;
+}
+#contact .card .networks {
+  margin: 50px;
+  font-size: 33px;
+}
+#contact .card .networks i {
+  padding: 0 10px;
 }/*# sourceMappingURL=style.css.map */

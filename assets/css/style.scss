@@ -172,7 +172,7 @@ header {
                 width: 550px; 
             }
             @media screen and (max-width: 1199px) {
-                width: 399px;
+                width: 499px;
             }
             @media screen and (max-width: 991px) {
                 display: none;
@@ -291,3 +291,224 @@ header {
     }
 }
 // ABOUT SECTION //
+
+// SAMPLE2 SECTION //
+#sample2 {
+    padding: 40px 0 10px 0;
+    .content {
+        @media screen and (min-width: 992px) {
+            margin: 350px 0 150px 0;
+        }
+        margin: 50px 0;
+        h3 {
+            @media screen and (max-width: 575px) {
+                font-size: 2rem;
+            }
+            font-family: 'Playfair Display';
+            font-weight: 700;
+            font-size: 3rem;
+        }
+        p {
+            @media screen and (min-width:1200px) {
+                margin-right: 175px;
+            }
+            margin: 20px 0;
+        }
+        button {
+            font-weight: bold;
+            padding: 15px 20px;
+        }
+    }
+    .illustration {
+        @media screen and (max-width: 991px) {
+            text-align: center;
+        }
+        height: 100%;
+        margin-top: -5px;
+        .back-img {
+            @media screen and (min-width:1200px) {
+                width: 550px; 
+            }
+            @media screen and (max-width: 1199px) {
+                width: 499px;
+            }
+            @media screen and (max-width: 991px) {
+                display: none;
+            }
+            height: auto; 
+            position: absolute;
+        }
+        .img-sample2 {
+            @media screen and (min-width:1400px) {
+                margin-right: 40px;
+            }
+            @media screen and (min-width: 992px) {
+                margin-top: 130px;
+            }
+            @media screen and (max-width: 991px) {
+                margin-bottom: 50px;
+            }
+            @media screen and (max-width: 575px) {
+                width: 250px;
+            }
+            width: 450px;
+            position: relative;
+        }
+    }
+}
+// SAMPLE2 SECTION //
+
+// DEAL SECTION //
+#deal {
+    @media screen and (min-width: 1921px) {
+        background-image: url(../images/dealw.jpg);
+    }
+    @media screen and (max-width: 1920px) {
+        background-image: url(../images/dealfhd.jpg);
+    }
+    @media screen and (max-width: 1280px) {
+        background-image: url(../images/dealhd.jpg);
+    }
+    @media screen and (max-width: 991px) {
+        background-image: url(../images/dealshd.jpg);
+    }
+    @media screen and (max-width: 720px) {
+        background-image: url(../images/dealsd.jpg);
+    }
+    background-position: center;
+    background-size: cover;
+    padding: 110px 0;
+    .pos1 {
+        @media screen and (min-width: 992px) {
+            margin-top: 235px;
+        }
+        @media screen and (max-width: 991px) {
+            margin-top: 0px;
+        }
+        padding: 0;
+        img {
+            width: 100%;
+        }
+        .co1 {
+            background-color: #0E5144;
+            h3 {
+                font-family: 'Playfair Display', sans-serif;
+                font-size: 2.15rem;
+                color: #fff;
+                padding: 50px;
+                margin: 0;
+            }
+            p {
+                margin: 0 30px 30px 30px;
+                color: #fff;
+            }
+            button {
+                padding: 15px 20px;
+                font-weight: bold;
+                margin: 15px;
+            }
+        }
+        
+    }
+    .pos2 {
+        @media screen and (min-width: 992px) {
+            margin-top: 0px;
+        }
+        @media screen and (max-width: 991px) {
+            margin-top: 15px;
+        }
+        padding: 0;
+        img {
+            width: 100%;
+        }
+        .img21 {
+            @media screen and (max-width: 991px) {
+                border-bottom-left-radius: .375rem;
+                border-bottom-right-radius: .375rem;
+                margin-bottom: 15px;
+            }
+            border-top-right-radius: .375rem;
+        }
+        .img22 {
+            @media screen and (max-width: 991px) {
+                border-radius: .375rem;
+            }
+        }
+    }
+    .pos3 {
+        @media screen and (min-width: 992px) {
+            margin-top: 70px;
+        }
+        @media screen and (max-width: 991px) {
+            margin-top: 15px;
+        }
+        padding: 0;
+        img {
+            @media screen and (max-width: 991px) {
+                border-top-left-radius: .375rem;
+            }
+            width: 100%;
+            border-top-right-radius: .375rem;
+        }
+        .co2 {
+            background-color: #eee;
+            padding: 20px;
+            h3 {
+                font-family: 'Playfair Display', sans-serif;
+                font-weight: 700;
+                font-size: 2rem;
+                margin: 0;
+            }
+            p {
+                margin: 20px;
+            }
+            button {
+                padding: 15px 20px;
+                font-weight: bold;
+                background-color: #0E5144;
+                color: #fff;
+            }
+            button:hover {
+                background-color: #246D5F;
+                border: #246D5F 1px solid;
+            }
+        }
+    }
+}
+// DEAL SECTION //
+
+// CONTACT SECTION //
+#contact {
+    background-color: #666;
+    padding: 77px;
+    .card {
+        margin: 55px;
+        img {
+            width: 144px;
+            height: 144px;
+            margin: 25px 0 15px 0;
+        }
+        h2 {
+            margin: 12px 0;
+            font-family: 'Playfair Display';
+            font-weight: 700;
+        }
+        h4 {
+            margin: 25px 22px;
+            color: #444;
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+        p {
+            margin: 33px 51px;
+        }
+        .networks {
+            margin: 50px;
+            font-size: 33px;
+            i {
+                padding: 0 10px;
+            }
+        }
+    }
+}
+// CONTACT SECTION //
